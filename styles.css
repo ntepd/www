@@ -635,3 +635,21 @@ nav {
     opacity: 0.9;
     line-height: 1.6;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .nav-buttons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-buttons {
+        display: none;
+    }
+    
+    .nav-container {
+        justify-content: center; 
+    }
+}
